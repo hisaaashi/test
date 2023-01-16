@@ -52,6 +52,13 @@ $(function() {
     );
     return false;
   });
+	
+$('#to-top').click(function () {
+    $('body,html').animate({
+        scrollTop: 1
+    }, 500);
+    return false;
+});
 
 
   // スクロール検知
